@@ -249,9 +249,6 @@ Cypress.Commands.add('selecionarOpcaoNaCombobox', (labelDoCampo, opcao) => {
 #### `cy.fazerLoginComCredenciaisValidas()`
 Realiza login usando credenciais válidas do arquivo de fixtures.
 
-**Credenciais:**
-- Usuário: `julio.lima`
-- Senha: `123456`
 
 **Exemplo de uso:**
 ```javascript
