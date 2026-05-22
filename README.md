@@ -272,8 +272,8 @@ Cypress.Commands.add('fazerLoginComCredenciaisValidas', () => {
 Realiza tentativa de login com credenciais inválidas do arquivo de fixtures.
 
 **Credenciais:**
-- Usuário: `luana.freitas`
-- Senha: `123456`
+- Usuário: `usuario`
+- Senha: `senha`
 
 **Exemplo de uso:**
 ```javascript
@@ -330,12 +330,12 @@ Contém credenciais válidas e inválidas para testes de login.
 ```json
 {
   "valida": {
-    "usuario": "julio.lima",
-    "senha": "123456"
+    "usuario": "usuario",
+    "senha": "senha"
   },
   "invalida": {
-    "usuario": "luana.freitas",
-    "senha": "123456"
+    "usuario": "usuario",
+    "senha": "senha"
   }
 }
 ```
